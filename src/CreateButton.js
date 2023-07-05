@@ -1,7 +1,9 @@
+import './CreateButton.css'
+
 function CreateButtonTodo (){
     return (
       
-      <button>Agregar Putos</button>
+      <button className="CreateTodoButton">+</button>
     );
 }
 

@@ -1,6 +1,8 @@
+import './ToDoSearch.css'
+
 function TodoSearch (){
     return (
-      <input placeholder="Cortar cebolla"/>
+      <input placeholder="Agregar un ToDo" className="TodoSearch"/>
     );
 }
 

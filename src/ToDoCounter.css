@@ -1,0 +1,23 @@
+/*{
+    background-image: url(./estilos/background.jpg);
+}*/
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 48px;
+    text-align: center;
+      
+        
+}
+
+.TodoCounter{
+    font-size:24px;
+    text-align:center;
+    margin:0;
+    padding:48px;
+    font-weight:400
+}
+.TodoCounter span{
+    font-weight:700
+}

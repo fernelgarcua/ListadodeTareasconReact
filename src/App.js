@@ -3,14 +3,13 @@ import logo from './platzi.webp';
 import { TodoCounter } from './ToDoCounter';
 import { TodoSearch } from './TodoSearch';
 import { TodoList } from './ToDoList';
-import './App.css';
 import { TodoItem } from './ToDoItem';
 import { CreateButtonTodo } from './CreateButton';
 
 const defaultToDos = [
   {text: 'comerme e Joshi', completed : true},
   {text: 'lavar loza', completed : false},
-  {text: 'hacer aseo', completed : false},
+  {text: 'hacer aseo', completed : true},
   {text: 'ir al gym', completed : false}
 ]
 
@@ -33,9 +32,6 @@ function App() {
     </React.Fragment>
   );
 }
-
-
-
 
 
 export default App;
